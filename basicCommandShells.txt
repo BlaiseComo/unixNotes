@@ -1,0 +1,37 @@
+- Help commands:
+    - help, --help, info, man
+- bin directory: 
+    - Binaries, executables
+    - Common linux user commands
+- etc directory:
+    - Administrative configuration files
+- home directory:
+    - Regular users' home directories
+- root directory:
+    - Root users home directory
+- sbin directory:
+    - Administrative commands
+- tmp directory:
+    - Temporary files
+- var directory:
+    - Variable files, survive reboot
+- cd ~  can be used to go to home directory
+- pwd   command prints current working directory
+- cp    command copies a file to a new file
+    - Ex. cp file file.bck
+- cp    command copies a file to a new location
+    - Ex. cp file /home/joe/Documents/
+- mv    command can change the location of a file  
+    - Ex. mv file /home/joe/Documents/
+- mkdir     command creates a directory
+- rm    command deletes a file  
+    - Ex. rm file
+- rmdir     command deletes an empty directory
+    - rmir -i   command deletes a non empty directory interactively
+    - rmir -r   command deletes a non empty directory
+- ps ux     command shows all processes running on the linux system for the current user
+- kill -signal ProcessID      command sends a signal to end a process 
+- killall -signal ProcessName   command sends a signal to end a process
+- df    command displays system space
+- du    command checks disk usage
+- 
